@@ -1,0 +1,7 @@
+{
+  "name": "Parctica_Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
