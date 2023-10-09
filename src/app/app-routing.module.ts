@@ -31,6 +31,34 @@ const routes: Routes = [
     path: 'perfil',
     loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
   },
+  {
+    path: 'asia-or',
+    loadChildren: () => import('./asia-or/asia-or.module').then( m => m.AsiaOrPageModule)
+  },
+  {
+    path: 'asia-occ',
+    loadChildren: () => import('./asia-occ/asia-occ.module').then( m => m.AsiaOccPageModule)
+  },
+  {
+    path: 'america-nor',
+    loadChildren: () => import('./america-nor/america-nor.module').then( m => m.AmericaNorPageModule)
+  },
+  {
+    path: 'america-sur',
+    loadChildren: () => import('./america-sur/america-sur.module').then( m => m.AmericaSurPageModule)
+  },
+  {
+    path: 'europa',
+    loadChildren: () => import('./europa/europa.module').then( m => m.EuropaPageModule)
+  },
+  {
+    path: 'ocean',
+    loadChildren: () => import('./ocean/ocean.module').then( m => m.OceanPageModule)
+  },
+  {
+    path: 'afric',
+    loadChildren: () => import('./afric/afric.module').then( m => m.AfricPageModule)
+  },
 ];
 
 @NgModule({
