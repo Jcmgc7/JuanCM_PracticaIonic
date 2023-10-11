@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-title><h1>Contactos</h1></ion-title>
+</ion-header>
+
+<ion-content>
+  <ion-item-divider color="light">A</ion-item-divider>
+    <ion-item-group *ngFor="let person of personasA">
+      <ion-item>{{person}}</ion-item>
+    </ion-item-group>
+
+    <ion-item-divider color="light">B</ion-item-divider>
+    <ion-item-group *ngFor="let person of personasB">
+      <ion-item>{{person}}</ion-item>
+    </ion-item-group>
+
+    <ion-item-divider color="light">C</ion-item-divider>
+    <ion-item-group *ngFor="let person of personasC">
+      <ion-item>{{person}}</ion-item>
+    </ion-item-group>
+
+    <ion-item-divider color="light">D</ion-item-divider>
+    <ion-item-group *ngFor="let person of personasD">
+      <ion-item>{{person}}</ion-item>
+    </ion-item-group>
+
+    <ion-back-button defaultHref="perfil"></ion-back-button>
+</ion-content>

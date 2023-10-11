@@ -17,4 +17,22 @@ import { BuscadorPage } from './buscador.page';
   ],
   declarations: [BuscadorPage]
 })
-export class BuscadorPageModule {}
+export class BuscadorPageModule {
+  alerCtrl: any;
+  doAlert() {
+    let alert = this.alerCtrl.create({
+      title: 'New Friend!',
+      message: 'La pagina esta en actual mantenimiento gracias por su comprenseion ',
+      buttons: ['Ok']
+    });
+    alert.present()
+  }
+  doClic(){
+    let alert = this.alerCtrl.create({
+      title: 'New Friend!',
+      message: 'La pagina esta en actual mantenimiento gracias por su comprenseion ',
+      buttons: ['Ok']
+  });
+  alert.present()
+}
+}

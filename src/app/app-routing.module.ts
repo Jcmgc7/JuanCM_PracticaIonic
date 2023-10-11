@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'lo-r',
-    loadChildren: () => import('./lo-r/lo-r.module').then( m => m.LoRPageModule)
+    loadChildren: () => import('./info_page/lo-r.module').then( m => m.LoRPageModule)
   },
   {
     path: 'tabs',
@@ -32,32 +32,12 @@ const routes: Routes = [
     loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
   },
   {
-    path: 'asia-or',
-    loadChildren: () => import('./asia-or/asia-or.module').then( m => m.AsiaOrPageModule)
+    path: 'general',
+    loadChildren: () => import('./general/general.module').then( m => m.GeneralPageModule)
   },
   {
-    path: 'asia-occ',
-    loadChildren: () => import('./asia-occ/asia-occ.module').then( m => m.AsiaOccPageModule)
-  },
-  {
-    path: 'america-nor',
-    loadChildren: () => import('./america-nor/america-nor.module').then( m => m.AmericaNorPageModule)
-  },
-  {
-    path: 'america-sur',
-    loadChildren: () => import('./america-sur/america-sur.module').then( m => m.AmericaSurPageModule)
-  },
-  {
-    path: 'europa',
-    loadChildren: () => import('./europa/europa.module').then( m => m.EuropaPageModule)
-  },
-  {
-    path: 'ocean',
-    loadChildren: () => import('./ocean/ocean.module').then( m => m.OceanPageModule)
-  },
-  {
-    path: 'afric',
-    loadChildren: () => import('./afric/afric.module').then( m => m.AfricPageModule)
+    path: 'contactos',
+    loadChildren: () => import('./contactos/contactos.module').then( m => m.ContactosPageModule)
   },
 ];
 

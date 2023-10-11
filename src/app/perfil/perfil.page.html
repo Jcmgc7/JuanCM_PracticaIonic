@@ -1,18 +1,67 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>perfil</ion-title>
+    <ion-title>Perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">perfil</ion-title>
-    </ion-toolbar>
-  </ion-header>
-</ion-content>
-
-
 <ion-content>
+<ion-card>
+  <ion-card-header>
+   <h1>Mi Perfil</h1> 
+  </ion-card-header>
+
+  <ion-list>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/compaltil.png">
+    </ion-avatar>
+    <button ion-item routerLink="/contactos">
+      <h5>Compartir ></h5>
+    </button>
+  </ion-item>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/guta.png">
+    </ion-avatar>
+    <button ion-item>
+      <h5>Me Gusta ></h5>
+    </button>
+  </ion-item>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/news.png">
+    </ion-avatar>
+    <button ion-item>
+      <h5>Noticias Guardadas ></h5>
+    </button>
+  </ion-item>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/perfil.png">
+    </ion-avatar>
+    <button ion-item>
+      <h5>Editar Perfil ></h5>
+    </button>
+  </ion-item>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/confi.png">
+    </ion-avatar>
+    <button ion-item>
+      <h5>Configuracion ></h5>
+    </button>
+  </ion-item>
+    <p></p>
+    <ion-item><ion-avatar slot="start">
+      <img src="assets/img/atencion.png">
+    </ion-avatar>
+    <button ion-item>
+      <h5>Atencion al cliente ></h5>
+    </button>
+  </ion-item>
+
+  </ion-list>
+</ion-card>
+
   <ion-back-button defaultHref="inicio"></ion-back-button>
   </ion-content>

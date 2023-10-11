@@ -1,13 +1,10 @@
-.header {
+
+  .content {
+    padding: 10px; 
     background-color: #1da1f2; 
     color: white; 
     text-align: center;
     font-weight: bold;
-  }
-  
-
-  .content {
-    padding: 10px; 
   }
   
  
@@ -38,6 +35,6 @@
     width: 300px;
     margin: auto;
   }
-  ion-card text{
-    
+  ion-back-button{
+    color: white; 
   }

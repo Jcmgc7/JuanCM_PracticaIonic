@@ -1,0 +1,74 @@
+ion-content {
+    padding: 0;
+  }
+  
+  ion-card {
+    border-radius: 0;
+    border: none;
+    background-color: white;
+  }
+  
+  ion-card-header {
+    padding: 10px 15px;
+  }
+  
+  ion-card-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  ion-list {
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  /* Estilo para los elementos de lista */
+  ion-item {
+    border: none;
+    padding: 0;
+    background-color: #1da1f2;
+  }
+  
+  ion-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  button {
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h5 {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+  
+  /* Agregar estilo a los elementos con íconos de avatares */
+  ion-item ion-avatar + button {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Agregar una línea divisoria entre elementos de la lista */
+  ion-item + ion-item {
+    border-top: 1px solid #e1e8ed;
+    
+  }
+  
+  /* Estilo para el botón atrás */
+  ion-back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1da1f2; /* Color de Twitter para el botón de atrás */
+  }
