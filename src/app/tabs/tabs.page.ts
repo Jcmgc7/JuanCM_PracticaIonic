@@ -9,7 +9,7 @@ export class TabsPage implements OnInit {
   constructor(private navCtrl: NavController) {}
 
   ionViewDidEnter() {
-    this.navCtrl.navigateRoot('./../inicio/inicio.module');
+    this.navCtrl.navigateRoot('./../perfil/perfil.module');
   }
 
   ngOnInit() {

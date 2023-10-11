@@ -8,20 +8,15 @@
 </ion-header>
 
 
-<ion-content>
-      <p><ion-button routerLink="/asia-or" >Asia Occidental</ion-button></p>
-
-      <p><ion-button routerLink="/asia-or" >Asia Oriental</ion-button></p>
-    
-      <p><ion-button routerLink="/europa" >Europa</ion-button></p>
-    
-      <p><ion-button routerLink="/america-nor" >Norte America</ion-button></p>
-    
-      <p><ion-button routerLink="/america-sur" >Sur America</ion-button></p>
-    
-      <p><ion-button routerLink="/afric" >Africa</ion-button></p>
-    
-      <p><ion-button routerLink="/ocean">Oceania</ion-button></p>
-    
+<ion-content padding>
+  <ion-list>
+      <p><ion-button block (click)="doAlert()" >Asia Occidental</ion-button></p>
+      <p><ion-button block (click)="doAlert()" >Asia Oriental</ion-button></p>
+      <p><ion-button block (click)="doAlert()" >Europa</ion-button></p>
+      <p><ion-button block (click)="doAlert()" >Norte America</ion-button></p>
+      <p><ion-button block (click)="doAlert()" >Sur America</ion-button></p>
+      <p><ion-button block (click)="doAlert()" >Africa</ion-button></p>
+      <p><ion-button block (click)="doAlert()">Oceania</ion-button></p>
+    </ion-list>
 <ion-back-button defaultHref="inicio"></ion-back-button>
 </ion-content>

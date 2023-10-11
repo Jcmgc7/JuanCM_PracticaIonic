@@ -23,14 +23,14 @@ export class ContactosPage implements OnInit {
   }
   private _personasC = ["Calvo", "Carla", "Carlos", "Chopo", "Cris"];
   public get personasC() {
-    return this._personasA;
+    return this._personasC;
   }
   public set personasC(value) {
     this._personasC = value;
   }
   private _personasD = ["Dani", "David", "Don Maikel"];
   public get personasD() {
-    return this._personasA;
+    return this._personasD;
   }
   public set personasD(value) {
     this._personasD = value;

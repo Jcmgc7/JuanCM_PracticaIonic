@@ -1,0 +1,17 @@
+ion-button {
+    width: 100%; 
+    margin: 10px 0; 
+    text-align: center;
+    font-size: 18px; 
+  }
+  .boton1 {
+    --ion-background-color: red; 
+    --ion-color-base: white; 
+    border: none;
+  }
+  
+  .boton2 {
+    --ion-background-color: green; 
+    --ion-color-base: white; 
+    border: none;
+  }

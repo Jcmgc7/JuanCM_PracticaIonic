@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AlertController } from '@ionic/angular'; 
 
 @Component({
   selector: 'app-buscador',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./buscador.page.scss'],
 })
 export class BuscadorPage implements OnInit {
+  constructor(private alertController: AlertController) {} 
 
-  constructor() { }
+  async doAlert() {
+    const alert = await this.alertController.create({
+      header: 'Alerta',
+      message: 'La página está en mantenimiento. Gracias por su comprensión.',
+      buttons: ['Ok'],
+    });
 
-  ngOnInit() {
+    await alert.present();
   }
 
+  ngOnInit() {}
 }

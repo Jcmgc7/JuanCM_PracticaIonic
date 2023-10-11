@@ -1,0 +1,38 @@
+ion-header {
+    --ion-background-color: white; 
+    color: #1da1f2; 
+  }
+  
+  ion-title {
+    font-size: 24px; 
+  }
+  
+  
+  ion-content {
+    --ion-background-color: #1da1f2; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+  }
+  
+  ion-text {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+  
+  ion-img {
+    max-width: 100%; 
+  }
+  
+ 
+  ion-button {
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    --ion-padding: 10px 20px; 
+    font-size: 18px; 
+    margin-top: 20px; 
+  }
+  
+  ion-back-button {
+    color: #ffffff; 
+  }
